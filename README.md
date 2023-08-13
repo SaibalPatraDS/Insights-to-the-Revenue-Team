@@ -37,8 +37,10 @@ The specifics of column names are not detailed here. However, remember to select
 1. `week_number` (Week Number Calculation)
 
 Calculate the week number from the corresponding date.
-Formula: ```DAX 
-         wn = WEEKNUM(dim_date[date])```
+Formula: 
+```DAX 
+wn = WEEKNUM(dim_date[date])
+```
 Table: `dim_date`
 
 2. `day type` (Weekday Calculation based on Feedback)
