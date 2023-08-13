@@ -47,7 +47,6 @@ Create a calculated column to differentiate weekdays and weekends based on stake
 Formula:
 
 ```DAX
-Copy code
 day type = 
 VAR wkd = WEEKDAY(dim_date[date], 1)
 RETURN IF(wkd > 5, "Weekend", "Weekday")
