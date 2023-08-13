@@ -31,22 +31,25 @@ RETURN IF(wkd > 5, "Weekend", "Weekday")
 
 ### `dim_rooms` Table
 The specifics of column names are not detailed here. However, remember to select the "Use First Row as Headers" option during transformation.
-Calculated Columns
-`week_number` (Week Number Calculation)
+
+## Calculated Columns
+
+1. `week_number` (Week Number Calculation)
 
 Calculate the week number from the corresponding date.
 Formula: ```DAX 
          wn = WEEKNUM(dim_date[date])```
 Table: `dim_date`
 
-day type (Weekday Calculation based on Feedback)
+2. `day type` (Weekday Calculation based on Feedback)
 
 Create a calculated column to differentiate weekdays and weekends based on stakeholder feedback.
 Formula:
 
-DAX
+```DAX
 Copy code
 day type = 
 VAR wkd = WEEKDAY(dim_date[date], 1)
 RETURN IF(wkd > 5, "Weekend", "Weekday")
-Table: dim_date
+```
+Table: `dim_date`
