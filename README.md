@@ -232,3 +232,8 @@ These measures collectively provide comprehensive insights into the hospitality 
 ## Conclusion
 
 This README.md offers a detailed account of the entire project process. From loading data to performing Power Query transformations and defining essential measures, each step contributes to producing valuable insights for the Revenue Team in the Hospitality Domain using Power BI. To explore the project further and access the actual Power BI project files, refer to the project documentation and accompanying files.
+
+## Final Presentation - 
+
+![image](https://github.com/SaibalPatraDS/Insights-to-the-Revenue-Team-/assets/102281722/a066c1cb-40b6-485f-9b4c-b241bd68bb82)
+
