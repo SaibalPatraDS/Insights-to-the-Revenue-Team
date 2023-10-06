@@ -119,9 +119,7 @@ RETURN IF(wkd > 5, "Weekend", "Weekday")
 
 13. **Booking % by Platform**: Show the percentage contribution of each booking platform for hotel bookings.
     ```DAX
-    Booking % by Platform = DIVIDE([Total Bookings], CALCULATE([Total Bookings], ALL(fact_bookings[booking_platform
-
-]))) * 100
+    Booking % by Platform = DIVIDE([Total Bookings], CALCULATE([Total Bookings], ALL(fact_bookings[booking_platform]))) * 100
     ```
     Table: `fact_bookings`
 
