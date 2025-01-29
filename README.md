@@ -1,6 +1,6 @@
 # Hospitality Revenue Insights using Power BI
 
-Welcome to the README.md document that outlines the entire process undertaken for the project aimed at providing insights to the Revenue Team in the Hospitality Domain using Power BI. The project's core objective was to analyze hospitality-related data and present these insights through well-designed Power BI reports.
+Welcome to the documentation that outlines the entire process undertaken for the project aimed at providing insights to the Revenue Team in the Hospitality Domain using Power BI. The project's core objective was to analyze hospitality-related data and present these insights through well-designed Power BI reports.
 
 ## Data Loading and Power Query Documentation
 
